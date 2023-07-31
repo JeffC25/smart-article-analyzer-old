@@ -24,21 +24,13 @@ The news article ingester module uses the newspaper3k to load an article specifi
 
 ## NLP Sentiment
 
-The NLP sentiment module implements a Content() class that takes in a text. It consists of methods that generate for the text a summary, list of keywords, and sentiment.
+The NLP sentiment module implements a Content() class that takes in an input string. It consists of methods that generate for the text a summary, list of keywords, and sentiment.
 
 It uses a simple extractive text algorithm that generates its analysis by utilizing stopwords, word frequencies, and sentence weights in conjunction with the NLTK, TextBlob, and Yake libraries.
 
 ## Database Overview 
 
-The database was implemented with SQLAlchemy and SQLite3. It currently consists of 4 tables: a User table , File table, Keyword table, and Keyword Pairing table
-
-Each row of the User table stores information regarding each user's ID, username, email, and (salted and hashed) password
-
-Each row of the File table stores information regarding each file's ID, name, owner ID (foreign key), size, summary, and time of upload
-
-Each row of the Keyword table stores keywords and ID
-
-Each row of the Keyword Pairing table stores a file ID (foreign key) and keyword ID (foreign key)
+The database is implemented with SQLAlchemy and SQLite3 and manages users and uploaded documents/articles.
 
 ## UI
 
@@ -49,7 +41,7 @@ The project frontend was created using Bootstrap CSS. It currently features sign
 
 ## API
 
-The project currently supports RESTful API endpoints for analyzing via article url and manual text input. 
+The project currently supports endpoints for analysis via article url and manual text input. 
 
 For analyzing via article url, request the endpoint `/api/article=<article url>`
 

@@ -1,4 +1,7 @@
 # Smart Document Analyzer
+Update: Currently reimplementing in Django and React
+
+## Demo:
 
 ![Demo](https://github.com/JeffC25/smart-document-analyzer/blob/main/documents/demo.gif.gif)
 

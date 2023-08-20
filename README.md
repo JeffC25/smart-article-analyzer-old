@@ -1,4 +1,4 @@
-# Smart Document Analyzer
+# Smart Article Analyzer
 Update: Currently reimplementing in Django and React
 
 ## Demo:

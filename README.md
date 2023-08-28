@@ -1,5 +1,6 @@
 # Smart Article Analyzer
 
+
 ## Demo:
 
 ![Demo](https://github.com/JeffC25/smart-document-analyzer/blob/main/documents/demo.gif.gif)
@@ -15,6 +16,7 @@
 ## Overview
 
 This project is a serverside-rendered application that allows users to generate summaries, keywords, and sentiment from PDF files, news article URLs, or manual text input. It consists of the following major componenst: a SQL database, PDF uploader, news article ingester, NLP sentiment module, and a frontend UI created with Bootstrap.
+
 ## PDF Uploader
 
 The PDF uploader module uses the PyPdf library to read a PDF file and output its text contents.

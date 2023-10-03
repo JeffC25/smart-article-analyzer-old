@@ -31,13 +31,13 @@ The NLP sentiment module implements a Content() class that takes in an input str
 
 It uses a simple extractive text algorithm that generates its analysis by utilizing stopwords, word frequencies, and sentence weights in conjunction with the NLTK, TextBlob, and Yake libraries.
 
-## Database Overview 
+## Database
 
 The database is implemented with SQLAlchemy and SQLite3 and manages users and uploaded documents/articles.
 
-## Frontend
+## UI
 
-The project UI was created using Bootstrap CSS. It currently features sign up, login, and sign out functionalities for authentication. Once signed in, the user may access the navbar to analyze text in 3 ways: 
+The project frontend was created using Bootstrap CSS. It currently features sign up, login, and sign out functionalities for authentication. Once signed in, the user may access the navbar to analyze text in 3 ways: 
 1. Input an article URL
 2. Upload a PDF document
 3. Manually input text

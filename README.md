@@ -35,9 +35,9 @@ It uses a simple extractive text algorithm that generates its analysis by utiliz
 
 The database is implemented with SQLAlchemy and SQLite3 and manages users and uploaded documents/articles.
 
-## UI
+## Frontend
 
-The project frontend was created using Bootstrap CSS. It currently features sign up, login, and sign out functionalities for authentication. Once signed in, the user may access the navbar to analyze text in 3 ways: 
+The project UI was created using Bootstrap CSS. It currently features sign up, login, and sign out functionalities for authentication. Once signed in, the user may access the navbar to analyze text in 3 ways: 
 1. Input an article URL
 2. Upload a PDF document
 3. Manually input text

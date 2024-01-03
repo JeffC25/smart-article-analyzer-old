@@ -1,4 +1,4 @@
-# 🙃 Currently reimplementing project 🙂
+# 🙃 Currently reimplementing project [here](https://github.com/JeffC25/tldrover) 🙂
 
 ## Smart Article Analyzer
 This project is a serverside-rendered application that allows users to generate summaries, keywords, and sentiment from PDF files, news article URLs, or manual text input. It consists of the following major componenst: a SQL database, PDF uploader, news article ingester, NLP sentiment module, and a frontend UI created with Bootstrap.
